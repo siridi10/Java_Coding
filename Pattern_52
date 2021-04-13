@@ -1,0 +1,17 @@
+class Main{
+    public static void main (String[] args) {
+        int n=5;
+        int x=n,y,t;
+        for (int i=n;i>=1 ;i-- ){
+            t=x;
+            y=i+1;
+            for(int j=n;j>=i;j--){
+                System.out.printf("%2d",t);
+                t=t-y;
+                y++;
+            }
+            x=x+i-1;
+            System.out.println();
+        } 
+    }
+}
