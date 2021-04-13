@@ -1,0 +1,18 @@
+class pattern{
+    public static void main (String[] args) {
+        int n=5;
+        int x=1;
+        int y,t;
+        for (int i=n;i>=1 ;i-- ){
+            y=i;
+            t=x;
+            for(int j=n;j>=1;j--){
+                System.out.println(t);
+                t=t-y;
+                y++;
+            }
+            x=x+i;
+            System.out.println();
+        } 
+    }
+}
