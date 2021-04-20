@@ -1,0 +1,11 @@
+import java.io.*; 
+public class siridi { 
+    public static void main(String[] args) 
+    {    
+        int a = 3; 
+        double db = (double)a;
+        System.out.println(db);
+        int db1 = (int)db; 
+        System.out.println(db1); 
+    } 
+}
