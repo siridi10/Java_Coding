@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    char c;
+	    Scanner sc= new Scanner(System.in);
+	    System.out.print("Enter c : ");
+	    c=sc.next().charAt(0);
+	    boolean low=(c=='a' || c=='e'|| c=='i' || c=='o'|| c=='u');
+	    boolean upp=(c=='A' || c=='E'|| c=='I' || c=='O'|| c=='U');
+	    if ( low|| upp){
+	        System.out.println("Yes " + c + " is Vowel");
+	    } else{
+	        System.out.println("No " + c + " is not Vowel");
+	    }
+	}
+}
+
+
+Output:-
+---------
+Enter c : A
+Yes A is Vowel
+
+Enter c : B
+No B is not Vowel
