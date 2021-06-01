@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    String c;
+	    Scanner sc= new Scanner(System.in);
+	    System.out.print("Enter Octal : ");
+	    c=sc.nextLine();
+	    int d=Integer.parseInt(c,8);
+		System.out.print(d);
+	}
+}
+
+Output:-
+------
+Enter Octal : 202
+130
