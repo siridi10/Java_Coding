@@ -1,1 +1,22 @@
+import java.util.Scanner;
 
+public class Main
+{
+	public static void main(String[] args) {
+	    char c;
+	    Scanner sc= new Scanner(System.in);
+	    System.out.print("Enter Character : ");
+	    //ch=sc.next().charAt(0);
+	    c=sc.next().charAt(0);
+	    int g=c;
+		System.out.print(g);
+	}
+}
+
+Output :
+------
+Enter Character : A
+65
+
+Enter Character : a
+97
