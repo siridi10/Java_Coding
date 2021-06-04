@@ -1,1 +1,29 @@
+import java.util.Scanner;
 
+public class Main {
+   public static void main(String args[]){
+       int num,rem;
+       int rev=0;
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter the Number :");
+       num = sc.nextInt();
+       int copy=num;
+       while(num!=0){
+           rem=num%10;
+           rev=rev*10+rem;
+           num=num/10;
+       }
+       if (copy==rev){
+           System.out.println("Palindrome");
+       } 
+       else{
+           System.out.println("Not Palindrome");
+       }
+   }
+}
+
+Output:-
+------
+Enter the Number :
+546
+Not Palindrome
