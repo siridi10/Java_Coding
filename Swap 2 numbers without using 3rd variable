@@ -1,1 +1,27 @@
 
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int a,b;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter first number");
+        a=sc.nextInt();
+        System.out.println("Enter second number");
+        b=sc.nextInt();
+        System.out.println("Before Swapping the value of " + a +" " + b);
+        a=a-b;
+        b=a+b;
+        a=b-a;
+         System.out.println("After Swapping the value of " + a +" " + b);
+    }
+}
+
+Output:-
+------
+Enter first number
+20
+Enter second number
+8
+Before Swapping the value of 20 8
+After Swapping the value of 8 20
