@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Reverseadigit {
+   public static void main(String args[]){
+       int num,rem;
+       int rev=0;
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter the digit :");
+       num = sc.nextInt();
+       while(num!=0){
+           rem=num%10;
+           rev=rev*10+rem;
+           num=num/10;
+       }
+       System.out.println(rev);
+   }
+}
+
+Output:-
+-------
+Enter the digit :
+234
+432
