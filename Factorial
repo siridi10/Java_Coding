@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class HelloWorld {
+class Factorial {
     public static void main(String[] args) {
         int num,fact=1;
         Scanner sc=new Scanner(System.in);
