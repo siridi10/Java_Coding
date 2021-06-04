@@ -1,1 +1,24 @@
 
+import java.util.Scanner;
+
+public class Main{
+      public static void main(String[] args){
+            int num1, num2, chk = 0, gcd = 0;
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Enter the first number: ");
+            num1 = sc.nextInt();
+            System.out.print("Enter the second number: ");
+            num2 = sc.nextInt();
+            System.out.print("The gcd of "+num1+" and "+num2+" is: ");
+            chk = (num1>num2)?num2:num1;
+            for(int i = 1; i<=chk; i++){
+                  if((num1%i==0) && (num2%i==0)){
+                        gcd = i;
+                  }
+                  else{
+                        gcd = 1;
+                  }
+            }
+            System.out.println(gcd);
+      }
+}
