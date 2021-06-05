@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	    int num1,num2,small,lcm=0;
+	    int gcd =0;
+	    Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter First number");
+	    num1=sc.nextInt();
+	    System.out.println("Enter Second number");
+	    num2=sc.nextInt();
+	    small=num1>num2?num1:num2;
+	    for (int i=small;i>=1 ;i--)
+	    {
+	        if ((num1%i==0) &&(num2%i==0))
+	        {
+	            gcd=i;
+	            break;
+	        }
+	        else{
+	            gcd=i;
+	        }
+	    } 
+	    lcm=(num1*num2)/gcd;
+		System.out.println("the lcm is "+lcm);
+	}
+}
+
+
+Output:-
+-------
+Enter First number
+5
+Enter Second number
+7            
+the lcm is 35
