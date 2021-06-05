@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        int num;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        num = sc.nextInt();
+        for(int i = 1; i<=num/2; i++){
+            if(i*i==num){
+                System.out.println("The entered number is a perfect square.");
+                break;
+            }
+            if(i==num/2){
+                System.out.println("The entered number is not a perfect square.");
+                break;
+            }
+        }
+    }
+}
+
+Output:-
+-------
+Enter the number: 16
+The entered number is a perfect square.
