@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main{
+      public static void main(String[] args){
+            int n;
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Enter the number: ");
+            n = sc.nextInt();
+            for(int i = 1; i<n; i++){
+                  for(int j = n; j>i; j--){
+                        if(i<n/2){
+                              System.out.print(i);
+                        }
+                        else{
+                              System.out.print(n-i);
+                        }
+                  }
+                  System.out.println();
+            }
+      }
+}
+
+Output:-
+-------
+Enter the number: 5
+1111
+333
+22
+1
