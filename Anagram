@@ -10,6 +10,7 @@ class Main {
     System.out.print("Enter second String: ");
     String str2 = input.nextLine();
     if(str1.length() == str2.length()) {
+    
       char[] charArray1 = str1.toCharArray();
       char[] charArray2 = str2.toCharArray();
       Arrays.sort(charArray1);
