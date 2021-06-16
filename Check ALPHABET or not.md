@@ -1,3 +1,5 @@
+
+```java
 import java.util.Scanner;
 
 public class Main
@@ -22,3 +24,4 @@ No 1 is not Alphabet
 
 2.Enter c : A
 Yes A is Alphabet
+```
