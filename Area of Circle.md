@@ -1,5 +1,6 @@
 Input should be in integer and output should be floating with 2 precision.
 
+```java
 import java.util.Scanner;
 
 public class Main
@@ -23,3 +24,4 @@ Output:-
 Enter diameter :10
 5.0
 78.50
+```
