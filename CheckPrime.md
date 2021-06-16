@@ -1,5 +1,5 @@
 If the number is prime print the square of the number else print half of number.
-
+```java
 Sample Output
 ------------
 1.Input : 17                        2.Input :                                   3.Input : 20
@@ -33,6 +33,8 @@ public class Main
 		        float z=num;
 		        System.out.print(z/2);
 		    }
+		
+		```
 		} 
 	}
 
