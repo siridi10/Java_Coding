@@ -1,3 +1,4 @@
+```java
 class ArrayTest {
   public static void delete(char[] ar, int pos){
 		for(int i=pos-1;i<ar.length-1;i++){
@@ -22,3 +23,4 @@ class Tester{
 	}
 
 }
+```
