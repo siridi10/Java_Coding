@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -20,3 +21,4 @@ Output:-
 Enter the  number ::
 2321232145669874565
 19
+```
