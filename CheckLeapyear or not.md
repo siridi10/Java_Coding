@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 
 class HelloWorld {
@@ -23,3 +24,4 @@ Output:-
 Enter the year
 2015
 not a leap year
+```
