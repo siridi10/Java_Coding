@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 
 public class Main{
@@ -41,3 +42,4 @@ Enter the number: 4
 3*3*3
 2*2
 1
+```
