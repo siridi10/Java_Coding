@@ -1,3 +1,4 @@
+```java
 import java.util.Scanner;
 
 public class Factor {
@@ -22,3 +23,4 @@ the factor of  15 is 1
 the factor of  15 is 3
 the factor of  15 is 5
 the factor of  15 is 15
+```
