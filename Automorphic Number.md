@@ -10,6 +10,7 @@ public class Main{
         boolean equal=false;
         Scanner sc=new Scanner(System.in);
         n=sc.nextInt();
+        
         num=n;
           sq=n*n;
           t=10;
