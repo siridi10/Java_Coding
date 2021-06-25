@@ -27,6 +27,7 @@ public class Main{
             t=t*10;
         }
         
+        
         if(equal==true){
                     System.out.println(num+" Number is Automorphic");
         }else{
