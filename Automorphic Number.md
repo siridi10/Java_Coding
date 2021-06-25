@@ -8,6 +8,7 @@ public class Main{
         int t;
         int sq;
         boolean equal=false;
+        
         Scanner sc=new Scanner(System.in);
         n=sc.nextInt();
         
