@@ -1,3 +1,4 @@
+```java
 import java.util.*;
 public class Main{
     public static void main(String a[]){
@@ -17,3 +18,4 @@ Output
 333
 2222
 11111
+```
