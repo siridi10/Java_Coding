@@ -1,3 +1,4 @@
+```java
 public class MinAndMax {
    public int max(int [] array) {
       int max = 0;
@@ -24,3 +25,4 @@ public class MinAndMax {
       System.out.println("Minimum value in the array is::"+m.min(myArray));
    }
 }
+```
