@@ -1,3 +1,4 @@
+```java
 import java.util.*;
 public class Main{
     public static void main(String a[]){ 
@@ -32,3 +33,4 @@ output
 2 9 12 19 22
 
 1 10 11 20 21
+```
