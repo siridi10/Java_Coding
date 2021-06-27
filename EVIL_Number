@@ -6,6 +6,7 @@ public class Main {
         Scanner sc=new Scanner(System.in);  
         System.out.println("Enter the value of range");  
         range = sc.nextInt();
+
         for(int i = 1; i <= range; i++)  
             if(checkNumber(i)){  
                 System.out.println(i + " is an Evil number");  
