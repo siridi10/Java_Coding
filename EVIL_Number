@@ -17,6 +17,7 @@ public class Main {
         int count = 0; 
         while(binaryNumber != 0) {  
             if(binaryNumber % 10 == 1)   
+
                 count++; 
                 binaryNumber = binaryNumber / 10;  
         }  
