@@ -30,6 +30,7 @@ public class Main {
         int j = 1;  
         while(number != 0) {  
             rem = number % 2;  
+
             binaryNumber += rem * j;  
             number = number / 2;  
             j = j * 10;  
