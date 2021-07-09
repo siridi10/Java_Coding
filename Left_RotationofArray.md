@@ -36,10 +36,10 @@ class arrayreverse{
 
 Output
 ------
-Enter the size of array 5
-Enter the elements
-1 2 3 4 5
-Enter of bits to be reversed
-2
-Array after right rotation: 
-3 4 5 1 2 
+Enter the size of array 5<br>
+Enter the elements<br>
+1 2 3 4 5<br>
+Enter of bits to be reversed<br>
+2<br>
+Array after right rotation:<br>
+3 4 5 1 2 <br>
